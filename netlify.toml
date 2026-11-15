@@ -1,0 +1,9 @@
+# Netlify 静态站点配置
+[build]
+  publish = "."
+  command = ""
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
